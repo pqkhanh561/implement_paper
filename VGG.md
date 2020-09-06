@@ -19,7 +19,7 @@ The incorporation of **1x1 conv** is a way to increase the non-linearity of the 
 
 
 
-##Implement
+## Implement
 Know how to create the custom model (need to study about __build__). Need to show summary of custom model 
 ==> The __build__ mean to really know the input shape. The summary of model can be check by using the Input(shape=(), batch_size) to run first.
 
