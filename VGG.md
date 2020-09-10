@@ -1,7 +1,7 @@
 # VGG 16
 
 
-The paper recommend small conv uses rather than large one. 
+* The paper recommend small conv uses rather than large one. 
 	* Make the decistion function more discriminative (????)
 	* Decrease parameter of network
 
@@ -10,7 +10,7 @@ The incorporation of **1x1 conv** is a way to increase the non-linearity of the 
 
 ==> What is decistion function?
 
-**Architect**
+* **Architect**
 	* **Dropout layer** is placed after dense (rate=0.5).
 	* Batch size: 256
 	* L2 penaties: 5.10^-4
@@ -19,7 +19,7 @@ The incorporation of **1x1 conv** is a way to increase the non-linearity of the 
 
 
 
-##Implement
+## Implement
 Know how to create the custom model (need to study about __build__). Need to show summary of custom model 
 ==> The __build__ mean to really know the input shape. The summary of model can be check by using the Input(shape=(), batch_size) to run first.
 
